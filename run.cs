@@ -214,7 +214,7 @@ class Program
             lines.Add(line);
         }
 
-        int result = Solve(lines);
+        long result = Solve(lines);
         Console.WriteLine(result);
     }
 }
