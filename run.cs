@@ -1,5 +1,3 @@
-#!/usr/bin/env -S dotnet-script
-
 using System;
 using System.Collections.Generic;
 
