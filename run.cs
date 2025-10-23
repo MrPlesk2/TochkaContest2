@@ -133,7 +133,7 @@ class Program
                 }
                 if (td == -1) continue;
 
-                var steps = Math.Abs(h - ent) + td + 1;
+                long steps = Math.Abs(h - ent) + td + 1;
                 long moveCost = steps * EnergyPerType[t];
 
                 var nh = (char[])hall.Clone();
@@ -183,7 +183,7 @@ class Program
                     if (hall[hpos] != '.') continue;
                     if (!IsPathClearFromEntranceToStop(hall, ent, hpos)) continue;
 
-                    var steps = Math.Abs(hpos - ent) + top + 1;
+                    long steps = Math.Abs(hpos - ent) + top + 1;
                     long moveCost = steps * EnergyPerType[amph - 'A'];
 
                     var nh = (char[])hall.Clone();
