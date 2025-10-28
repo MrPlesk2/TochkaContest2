@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
+
 class Program
 {
     static List<string> Solve(List<(string, string)> edges)
